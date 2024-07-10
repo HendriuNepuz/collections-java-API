@@ -45,8 +45,8 @@ public class CarrinhoDeCompras {
 
         carrinhoDeCompras.adicionarItem("Arroz", 32, 5);
         carrinhoDeCompras.adicionarItem("Feijão", 12.00, 1);
-        carrinhoDeCompras.adicionarItem("Carne", 36.00, 1);
-        carrinhoDeCompras.adicionarItem("Arroz", 32, 3);
+        carrinhoDeCompras.adicionarItem("Carne", 36.90, 1);
+        carrinhoDeCompras.adicionarItem("Arroz", 21.40, 3);
 
         double valorCarrinho = 0;
         valorCarrinho = carrinhoDeCompras.calculaValorTotal();
